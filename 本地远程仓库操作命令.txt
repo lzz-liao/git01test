@@ -1,0 +1,76 @@
+#创建本地仓库，目录下会出现.git文件夹
+git  init 
+
+#查看仓库状态
+git  status  
+
+#将文件(存在的文件)添加到暂存区，.git目录下就会出现index文件
+git  add  文件名
+
+
+
+#git 将暂存区的文件取消
+git  reset  
+
+
+
+#git 命令切换
+git  reset --hard
+
+
+#git 将暂存区文件提交到本地仓库
+git  commit  -m  "注释"  文件名
+
+
+
+#查看日志
+git  log
+
+
+
+#查看日志(可以查看到reset)
+git  reflog
+
+
+
+
+
+#查看远程仓库
+git  remote
+
+
+
+#添加远程仓库（本地仓库和远程仓库关联）
+git  remote  add  origin  远程仓库http链接
+
+
+
+#克隆远程仓库
+git  clone  远程仓库http链接
+
+
+
+#将代码推送远程仓库
+git  push  origin  master
+
+
+
+#从远程仓库拉取代码
+git  pull  origin  maste
+
+
+
+#查看所有分支
+git  branch
+
+
+
+#创建新分支
+git  branch  分支名
+
+
+#切换到指定分支
+git  checkout  分支名
+
+#合并分支
+git  merge  分支名
